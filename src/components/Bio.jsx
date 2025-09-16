@@ -1,11 +1,12 @@
 import React from "react";
+import myPfp from '../assets/mypfp.JPG';
 
 function Bio() {
     return (
         <div className="bio" style={{ textAlign: "left", padding: "20px", background: "#f0f0f0" }}>
             <h2>About Me</h2>
             <div>
-                <img src = '/mypfp.JPG' alt = "photo of Nadia Pinos" className="profile-pic" style = {{ width: "200px", borderRadius: "100px"}}/>
+                <img src = {myPfp} alt = "Nadia Pinos" className="profile-pic" style = {{ width: "200px", borderRadius: "100px"}}/>
                 <p>
                     Hi! I'm Nadia Pinos, a fourth year Computer Science student at South Dakota State University.
                     I have a passion for web development and I want to learn more about creating appealing user-friendly applications!!!
