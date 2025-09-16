@@ -1,10 +1,16 @@
 import React from "react";
+import HeaderName from '../assets/HeaderName.png';
 
 function Header() {
   return (
-    <header style={{ textAlign: "center", padding: "50px 30px", background: "#e2a739ff", color: "yellow-orange" }}>
-      <h1>Nadia Pinos</h1>
-      <p> Page Name</p>
+    <header>
+      <div>
+        <img 
+            src={HeaderName} 
+            alt="Nadia Pinos Text Stylized" 
+            style={{ width: "100%", height: "auto" }} 
+        />
+      </div>
     </header>
   );
 }

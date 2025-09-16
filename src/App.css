@@ -1,17 +1,29 @@
-.profile-pic {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  object-position: center 25%;
-  border-radius: 0;
+body{
+    background-color: #1b1822; /* dark purple background */
 }
 
-.bio {
-  max-width: 600px;
-  margin: 20px auto;
-  padding: 0 20px;
-  font-size: 18px;
-  line-height: 1.6;
-  color: #333333;
-  text-align: left;
+.button-link{
+  background: #000000;  /* black button */
+  color: #DAFA8B;       /* green text */
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.button-link:hover {
+  background: #DAFA8B;  /* green hover */
+  color: #000000;       /* black text */
+}
+
+.App {
+  min-height: 100vh;       /* ensures the container fills the viewport */
+  display: flex;
+  flex-direction: column;  /* lets you stack content + footer vertically */
+}
+
+.main-content {
+  flex: 1;                 /* takes up remaining space */
+  padding-bottom: 80px;    /* space for the footer */
 }

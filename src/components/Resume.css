@@ -1,0 +1,73 @@
+.resume-page {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #442D7C; /* dark purple background */
+  color: #f2f2f2; /* light text for readability */
+  border-radius: 12px;
+}
+
+.resume-page h1.name {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+  color: #DAFA8B; /* lime for contrast */
+}
+
+.resume-page .contact {
+  text-align: center;
+  font-size: 0.95rem;
+  margin-bottom: 30px;
+  color: #F85ACA; /* pink highlight */
+}
+
+.resume-page h2 {
+  border-bottom: 2px solid #DAFA8B; /* lime underline */
+  padding-bottom: 5px;
+  margin-top: 30px;
+  font-size: 1.3rem;
+  color: #F85ACA; /* pink headings */
+}
+
+.resume-page ul {
+  margin: 10px 0 20px 20px;
+}
+
+.job {
+  margin-bottom: 20px;
+}
+
+.job h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #DAFA8B; /* lime job titles */
+}
+
+.job .date {
+  font-style: italic;
+  color: #ccc; /* lighter gray for subtle contrast */
+  margin-bottom: 10px;
+}
+
+.resume-download {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.resume-download a {
+  background: #6341B4;  /* medium purple button */
+  color: #FFFFFF;       /* white text */
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.resume-download a:hover {
+  background: #F85ACA;  /* pink hover */
+  color: #442D7C;       /* dark purple text */
+}

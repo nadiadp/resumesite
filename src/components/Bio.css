@@ -1,0 +1,21 @@
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center 25%;
+  border-radius: 0;
+  border-color: #6341B4; /* medium purple border */
+  border-style: inset;
+  border-width: 5px;
+}
+
+.bio-page{
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #442D7C; /* dark purple background */
+  color: #f2f2f2; /* light text for readability */
+  border-radius: 12px;
+}
