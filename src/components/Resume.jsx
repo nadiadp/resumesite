@@ -7,7 +7,7 @@ const Resume = () => {
       <h1 className="name">Nadia Pinos</h1>
       <p className="contact">
         📍 Sioux Falls, SD | 📞 (605) 929-1136 | ✉️{" "}
-        <a href="mailto:pinosnadia@yahoo.com">pinosnadia@yahoo.com</a>
+        <a href="mailto:pinosnadia@yahoo.com"className="email-link">pinosnadia@yahoo.com</a>
       </p>
 
       {/* Professional Summary */}

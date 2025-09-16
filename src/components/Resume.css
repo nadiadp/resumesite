@@ -13,15 +13,25 @@
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 5px;
-  color: #DAFA8B; /* lime for contrast */
+  color: #ffffff; /* lime for contrast */
 }
 
 .resume-page .contact {
   text-align: center;
   font-size: 0.95rem;
   margin-bottom: 30px;
-  color: #F85ACA; /* pink highlight */
+  color: #DAFA8B; /* pink highlight */
 }
+
+.email-link {
+  color: #F85ACA;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
 
 .resume-page h2 {
   border-bottom: 2px solid #DAFA8B; /* lime underline */
