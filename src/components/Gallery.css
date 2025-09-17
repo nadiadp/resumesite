@@ -1,0 +1,25 @@
+.gallery-container {
+  padding: 20px;
+  text-align: center;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #000000; /* dark purple background */
+  color: #bfbcc7; /* light text for readability */
+  border-radius: 12px;
+}
+
+.instagram-feed iframe {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.insta-link {
+  color: #F85ACA; /* pink accent for email link */
+  text-decoration: none;
+}
+.insta-link:hover {
+  text-decoration: underline;
+}

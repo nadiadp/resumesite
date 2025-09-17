@@ -17,6 +17,39 @@ body{
   color: #000000;       /* black text */
 }
 
+/* Sparkle effect for special button */
+.sparkle-button {
+  position: relative;
+  overflow: hidden;
+}
+
+.sparkle-button::before,
+.sparkle-button::after {
+  content: '✨';            /* star emoji */
+  position: absolute;
+  font-size: 16px;
+  opacity: 0;
+  animation: sparkle 2s infinite;
+}
+
+.sparkle-button::before {
+  top: 0;
+  left: 11%;
+  animation-delay: 0s;
+}
+
+.sparkle-button::after {
+  bottom: 0;
+  right: 11%;
+  animation-delay: 1s;
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 0; transform: scale(0.5) rotate(0deg); }
+  50% { opacity: 0.5; transform: scale(1.2) rotate(15deg); }
+}
+
+/* App layout */
 .App {
   min-height: 100vh;       /* ensures the container fills the viewport */
   display: flex;

@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Bio from "./components/Bio";
 import Resume from "./components/Resume";
 import Footer from "./components/Footer";
+import Gallery from "./components/Gallery";
 import './App.css';
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
         {/* Navbar */}
         <nav className="navbar">
           <Link to="/" className="button-link">About Me</Link>
-          <Link to="/resume" className="button-link">Resume</Link>
+          <Link to="/resume" className="button-link sparkle-button">Resume</Link>
+          <Link to="/gallery" className="button-link">Gallery</Link>
         </nav>
 
         {/* Main content */}
@@ -23,6 +25,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Bio />} />
             <Route path="/resume" element={<Resume />} />
+            <Route path="/gallery" element={<Gallery />} />
           </Routes>
         </div>
 
