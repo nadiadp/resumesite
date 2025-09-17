@@ -11,10 +11,19 @@
   border-radius: 12px;
 }
 
+.instagram-feed {
+  width: 100%;
+  max-width: 800px; /* optional, limit on large screens */
+  margin: 0 auto;
+}
+
 .instagram-feed iframe {
+  width: 100%;
+  height: auto;        /* let the iframe height scale naturally */
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
+
 
 .insta-link {
   color: #F85ACA; /* pink accent for email link */

@@ -11,15 +11,17 @@ function Gallery() {
         strengths as well, so I hope you enjoy viewing some of my favorite shots!
       </p>
       <div className="instagram-feed">
-        <iframe 
-        src="https://snapwidget.com/embed/1107926"
-        className="snapwidget-widget"
-        allowTransparency="true"
-        frameBorder="0"
-        scrolling="no"
-        style={{ border: "none", overflow: "hidden", width: "765px", height: "510px" }}
-        title="Nadia Pinos' Photography"
-        ></iframe>
+        <iframe src="https://snapwidget.com/embed/1107956" 
+        class="snapwidget-widget" 
+        allowtransparency="true" frameborder="0" scrolling="no" 
+        style={{ 
+        border: "none", 
+        overflow: "hidden", 
+        width: "500px", 
+        height: "500px" 
+        }}
+        title="Nadia Pinos' Photography">
+        </iframe>
       </div>
       <div>
         <p>
