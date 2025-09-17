@@ -32,6 +32,15 @@
   text-decoration: underline;
 }
 
+.git-link {
+  color: #93c9ff;
+  font-weight : bold;
+  text-decoration: none;
+}
+
+.git-link:hover {
+  text-decoration: underline;
+}
 
 .resume-page h2 {
   border-bottom: 2px solid #DAFA8B; /* lime underline */
