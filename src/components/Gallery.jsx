@@ -16,9 +16,7 @@ function Gallery() {
         allowtransparency="true" frameborder="0" scrolling="no" 
         style={{ 
         border: "none", 
-        overflow: "hidden", 
-        width: "500px", 
-        height: "500px" 
+        overflow: "hidden"
         }}
         title="Nadia Pinos' Photography">
         </iframe>

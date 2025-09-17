@@ -13,16 +13,18 @@
 
 .instagram-feed {
   width: 100%;
-  max-width: 800px; /* optional, limit on large screens */
+  max-width: 800px;   /* optional, keeps it from being huge on desktops */
   margin: 0 auto;
 }
 
 .instagram-feed iframe {
-  width: 100%;
-  height: auto;        /* let the iframe height scale naturally */
+  width: 100%;        /* takes full width of parent */
+  aspect-ratio: 1 / 1; /* keeps it square (500x500 shape, but responsive) */
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  display: block;
 }
+
 
 
 .insta-link {
