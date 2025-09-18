@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/resumesite/static/css/main.861bfdf0.css",
-    "main.js": "/resumesite/static/js/main.1e261abd.js",
+    "main.css": "/resumesite/static/css/main.8e5d481c.css",
+    "main.js": "/resumesite/static/js/main.f01e0130.js",
+    "static/media/ASADesign.png": "/resumesite/static/media/ASADesign.49f01d0ec95f5298bcbb.png",
+    "static/media/App-logo-main.png": "/resumesite/static/media/App-logo-main.4005152546feefb32146.png",
+    "static/media/App-logo-simplified.png": "/resumesite/static/media/App-logo-simplified.9d1098bdadae79b68d78.png",
+    "static/media/horse3.png": "/resumesite/static/media/horse3.089e0bdc456257b43ff6.png",
+    "static/media/horse2.png": "/resumesite/static/media/horse2.457a8200a2b610804ef7.png",
+    "static/media/horse1.png": "/resumesite/static/media/horse1.3c8510513f6766297234.png",
+    "static/media/editImage.png": "/resumesite/static/media/editImage.5757e48d7ca6af3e0c04.png",
     "static/media/mypfp.JPG": "/resumesite/static/media/mypfp.b134abe5f9fbaeb69ddc.JPG",
     "static/media/HeaderName.png": "/resumesite/static/media/HeaderName.3bed83ca64b28f54a7b7.png",
     "index.html": "/resumesite/index.html",
-    "main.861bfdf0.css.map": "/resumesite/static/css/main.861bfdf0.css.map",
-    "main.1e261abd.js.map": "/resumesite/static/js/main.1e261abd.js.map"
+    "main.8e5d481c.css.map": "/resumesite/static/css/main.8e5d481c.css.map",
+    "main.f01e0130.js.map": "/resumesite/static/js/main.f01e0130.js.map"
   },
   "entrypoints": [
-    "static/css/main.861bfdf0.css",
-    "static/js/main.1e261abd.js"
+    "static/css/main.8e5d481c.css",
+    "static/js/main.f01e0130.js"
   ]
 }
