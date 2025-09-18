@@ -1,0 +1,12 @@
+.carousel-container {
+  max-width: 50px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.carousel .legend {
+  background: #442D7C;
+  color: #DAFA8B;
+  font-weight: bold;
+  opacity: 0.9;
+}

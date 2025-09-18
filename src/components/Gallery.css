@@ -34,3 +34,7 @@
 .insta-link:hover {
   text-decoration: underline;
 }
+
+.gallery-container section {
+  margin-bottom: 3rem;
+}
