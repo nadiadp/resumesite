@@ -20,7 +20,7 @@ function Gallery() {
         <section>
         <h2 style={{ color: "#DAFA8B" }}>My published Editorial for The Collegian!</h2>
         <p>
-            Aside from working with South Dakota State University's student-run newspaper, The Collegian on their socials, 
+            Aside from working with South Dakota State University's student-run newspaper, The Collegian, on their socials, 
             I had the amazing opportunity to write my own editorial that was published in the newspaper!
             It was such a fun experience and I learned so much from the process of researching, writing, editing, and publishing my work.
             You can check out my editorial below!
