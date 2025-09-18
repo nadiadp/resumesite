@@ -158,7 +158,7 @@ const Resume = () => {
         <h2>Extracurriculars & Achievements</h2>
         <ul>
           <li>2024 Dean’s List (Spring and Fall Semesters)</li>
-          <li>Association for Computing Machinery (ACM) Club Member</li>
+          <li>Published editorial for The Collegian</li>
           <li>
             Social Media and Graphic Design assistance for SDSU African Student
             Association
