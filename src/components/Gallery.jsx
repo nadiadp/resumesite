@@ -26,7 +26,11 @@ function Gallery() {
             You can check out my editorial below!
         </p>
         <div>
-            <img src={editorial} alt="Editorial published in The Collegian" style={{ width: "400px", borderRadius: "10px" }} />   
+            <img 
+            src={editorial} 
+            alt="Editorial published in The Collegian" 
+            className="editorial-image" 
+            /> 
         </div>
         <div>
             <a href="https://sdsucollegian.com/30614/opinion/slavery-not-up-for-moral-debate/" className= "insta-link" target="_blank" rel="noopener noreferrer">

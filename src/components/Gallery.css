@@ -38,3 +38,13 @@
 .gallery-container section {
   margin-bottom: 3rem;
 }
+
+.editorial-image {
+  width: 100%;        /* scale responsively */
+  max-width: 400px;   /* cap size on big screens */
+  height: auto;       /* keep proportions */
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;     /* centers it */
+}
+

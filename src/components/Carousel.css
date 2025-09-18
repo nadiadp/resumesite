@@ -1,7 +1,8 @@
 .carousel-container {
-  max-width: 50px;
-  margin: 40px auto;
   text-align: center;
+  width: 100%;
+  max-width: 800px;   /* keep it from being huge on big screens */
+  margin: 0 auto;     /* center horizontally */
 }
 
 .carousel .legend {
@@ -9,4 +10,10 @@
   color: #DAFA8B;
   font-weight: bold;
   opacity: 0.9;
+}
+
+.carousel-container img {
+  width: 100%;        /* scale images to fit parent width */
+  height: auto;       /* preserve aspect ratio */
+  object-fit: contain; /* keep the whole image visible */
 }
