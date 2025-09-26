@@ -9,8 +9,8 @@ function Bio() {
             <div>
                 <img src={myPfp} alt="Nadia Pinos" className="profile-pic" style={{ width: "200px", borderRadius: "100px" }} />
                 <p>
-                    Hi! I'm Nadia Pinos, a fourth year Computer Science student at South Dakota State University. I have a passion for web development 
-                    and I want to learn more about creating appealing user-friendly applications!!!
+                    Hi! I'm Nadia Pinos, a fourth year Computer Science student at South Dakota State University. I'm based in Sioux Falls, SD, however, during the 
+                    school year I live in Brookings, SD. I have a passion for web development and I want to learn more about creating appealing user-friendly applications!!!
                 </p>
                 <p>
                     I have experience with C languages, HTML/CSS, React, and I love to take on challenges that push me to grow both 
