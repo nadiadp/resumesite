@@ -44,16 +44,8 @@ function Gallery() {
             Photography is truly something I love and I'm super proud of the work I've done so far.
             I hope you enjoy viewing some of my favorite shots!
         </p>
-        <div className="instagram-feed">
-            <iframe src="https://snapwidget.com/embed/1107956" 
-            class="snapwidget-widget" 
-            allowtransparency="true" frameborder="0" scrolling="no" 
-            style={{ 
-            border: "none", 
-            overflow: "hidden"
-            }}
-            title="Nadia Pinos' Photography">
-            </iframe>
+        <div className="instagram-feed">    
+        <iframe src="https://snapwidget.com/embed/1107956" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:500px; height:500px" title="Nadia Pinos' Photography"></iframe>
         </div>
         <div>
             <p>
